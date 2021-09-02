@@ -14,7 +14,7 @@
         <fieldset>
             <legend>New User Signup:</legend>
                 <label for="name" class="lab">Name:</label>
-                <input type="text" id="name" name="name" class="n" maxlength="16">
+                <input required type="text" id="name" name="name" class="n" maxlength="16">
                 <br>
 
                 <label for="gender">Gender:</label>
@@ -23,11 +23,11 @@
                 <br>
 
                 <label for="age">Age:</label>
-                <input type="text" id="number" name="number" maxlength="6" class="reduce">
+                <input required type="text" id="number" name="number" maxlength="6" class="reduce">
                 <br>
 
                 <label for="pa">Personality Type:</label>
-                <input type="text" id="pa" name="number" maxlength="6" class="reduce">
+                <input required type="text" id="pa" name="number" maxlength="6" class="reduce">
                 <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp"> <span class="col">(Don't know your type?)</span></a>
                 <br>
                 <label for="favOS">Favorite OS:</label>
@@ -40,8 +40,8 @@
                 </select>
                 <br>
                 <label for="sa">Seeking Age:</label>
-                <input type="text" id="seekinagemin" name="seekingage" maxlength="2" placeholder="min"> to
-                <input type="text" id="seekingagemax" name="seekingagemax" maxlength="2" placeholder="max">
+                <input required type="text" id="seekinagemin" name="seekingage" maxlength="2" placeholder="min"> to
+                <input required type="text" id="seekingagemax" name="seekingagemax" maxlength="2" placeholder="max">
                 <br>
                 <button type="submit" class="but">Sign Up</button>
         </fieldset>
