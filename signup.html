@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" type="text/css">
+</head>
+<body>
+
+    <p class="nerd">nerd<span class="color">Luv &trade;</span><br> <span class="lil">where meek geeks meet</span></p>
+    <form> 
+        <fieldset>
+            <legend>New User Signup:</legend>
+                <label for="name" class="lab">Name:</label>
+                <input type="text" id="name" name="name" class="n" maxlength="16">
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="rad" id="rad">Male
+                <input type="radio" id="rad" name="rad" checked>Female
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="text" id="number" name="number" maxlength="6" class="reduce">
+                <br>
+
+                <label for="pa">Personality Type:</label>
+                <input type="text" id="pa" name="number" maxlength="6" class="reduce">
+                <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp"> <span class="col">(Don't know your type?)</span></a>
+                <br>
+                <label for="favOS">Favorite OS:</label>
+                <select name="fav" id="fav">
+                    <option value="windows" selected>Windows</option>
+                    <option value="linux">Linux</option>
+                    <option value="Mac">Mac</option>
+                    <option value="android">Android</option>
+                    <option value="unix">Unix</option>
+                </select>
+                <br>
+                <label for="sa">Seeking Age:</label>
+                <input type="number" id="seekinagemin" name="seekingage" min="0" max="2" placeholder="min"> to
+                <input type="number" id="seekingagemax" name="seekingagemax" min="0" max="2" placeholder="max">
+                <br>
+                <button type="submit" class="but">Sign Up</button>
+        </fieldset>
+        <p>This page is for single nerds to meet and date each other! Type in your <br> personal information and wait for the nerdy luv to begin!</p>
+        <p>Thank you for using our site.</p>
+        <p>Results and page (C) Copyright NerdLuv Inc</p>
+        <div id="align">
+            <img src="arrow.jpg" alt="image" width=1.5%>
+            <a href="https://feeharh.github.io/"><span class="col">Back to front page</span></a>
+        </div>
+    
+        <footer>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffeeharh.github.io%2F"><img 
+                src="w3c-css.png" 
+                alt="css validator"/>
+            </a>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Ffeeharh.github.io%2F"> <img
+                src="w3c-html.png"
+                alt="html validator"/>
+            </a>
+        </footer>
+    </form>
+</body>
+</html>
