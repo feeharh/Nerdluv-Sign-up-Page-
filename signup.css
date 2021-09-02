@@ -40,7 +40,7 @@ a{
     line-height: 20px;
 }
 #align{
-    
+    overflow:hidden;
 }
 .nerd{
     font-family: "Arial black";
